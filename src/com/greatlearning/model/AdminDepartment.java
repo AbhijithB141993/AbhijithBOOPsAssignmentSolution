@@ -2,15 +2,19 @@ package com.greatlearning.model;
 
 public class AdminDepartment extends SuperDepartment {
 
-	public AdminDepartment() {}
-	
-		public String departmentName() {
-			 return("Admin Department");}
+	public AdminDepartment() {
+	}
+
+	public String departmentName() {
+		return ("Admin Department");
+	}
+
 	public String getTodaysWork() {
-		 return("Complete your documents Submission");}
+		return ("Complete your documents Submission");
+	}
+
 	public String getWorkDeadline() {
-		 return("Complete by EOD ");}}
-		// TODO Auto-generated constructor stub
-	
-
-
+		return ("Complete by EOD ");
+	}
+}
+// TODO Auto-generated constructor stub

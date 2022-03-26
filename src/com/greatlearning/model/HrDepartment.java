@@ -1,18 +1,22 @@
 package com.greatlearning.model;
 
 //public class HrDepartment {
-	public class HrDepartment extends SuperDepartment{
-	 
-		public String departmentName() {
-			 return("HR Department");}
+public class HrDepartment extends SuperDepartment {
+
+	public String departmentName() {
+		return ("HR Department");
+	}
+
 	public String getTodaysWork() {
-		 return("Fill today’s worksheet and mark your attendance");}
+		return ("Fill today’s worksheet and mark your attendance");
+	}
+
 	public String getWorkDeadline() {
-		 return("Complete by EOD ");}
+		return ("Complete by EOD ");
+	}
+
 	public String doActivity() {
-		 return("team Lunch ");}
+		return ("team Lunch ");
+	}
 
 }
-	
-
-
